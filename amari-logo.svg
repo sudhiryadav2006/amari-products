@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="70 50 360 350" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&amp;display=swap');
+      .logo-title {
+        font-family: 'Playfair Display', 'Times New Roman', Didot, 'Cinzel', Georgia, serif;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+      }
+      .logo-subtitle {
+        font-family: 'Playfair Display', 'Times New Roman', Didot, 'Cinzel', Georgia, serif;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+      }
+    </style>
+  </defs>
+
+  <!-- Circular Emblem -->
+  <g id="emblem-group">
+    <!-- Outer Circle Frame -->
+    <circle cx="250" cy="155" r="95" fill="#FFFFFF" stroke="#111827" stroke-width="6.5" />
+
+    <!-- 1. Purple Fragrance / Air Care Waves (Top Left) -->
+    <g fill="#5855A5">
+      <!-- Top wave -->
+      <path d="M 188 108 C 204 98, 226 118, 245 106 C 238 114, 218 104, 188 108 Z" />
+      <!-- Middle wave -->
+      <path d="M 183 123 C 200 113, 222 133, 240 121 C 233 129, 214 119, 183 123 Z" />
+      <!-- Bottom wave -->
+      <path d="M 180 138 C 196 128, 216 148, 233 136 C 227 144, 209 134, 180 138 Z" />
+    </g>
+
+    <!-- 2. Green Botanical Leaf (Top Right) -->
+    <g>
+      <!-- Leaf Body -->
+      <path d="M 255 146 C 255 125, 264 100, 286 86 C 291 108, 282 136, 255 146 Z" fill="#22C55E" />
+      <!-- Leaf Center Spine -->
+      <path d="M 255 146 Q 268 120 286 86" stroke="#15803D" stroke-width="1.8" fill="none" />
+      <!-- Stem -->
+      <path d="M 255 146 Q 252 153 250 157" stroke="#15803D" stroke-width="2.2" stroke-linecap="round" fill="none" />
+    </g>
+
+    <!-- 3. Red Fragrance Droplet with Tag (Middle Right) -->
+    <g>
+      <!-- Blue hangtag/stem -->
+      <path d="M 285 132 L 292 118 L 295 119.5 L 288 133.5 Z" fill="#1D4ED8" />
+      <!-- Red Droplet Outer -->
+      <path d="M 287 128 C 302 144, 305 160, 298 172 C 291 183, 275 183, 268 172 C 262 158, 272 142, 287 128 Z" fill="#D9383A" />
+      <!-- White Droplet Aperture -->
+      <path d="M 287 146 C 294 154, 295 162, 292 168 C 288 173, 279 173, 275 168 C 272 162, 276 154, 287 146 Z" fill="#FFFFFF" />
+    </g>
+
+    <!-- 4. Deep Blue House (Home Care) -->
+    <g>
+      <!-- Chimney -->
+      <rect x="200" y="137" width="6" height="12" fill="#1E3A8A" />
+      <!-- Main House + Roof Silhouette -->
+      <path d="M 226 132 L 186 158 L 193 158 L 193 196 L 243 196 L 243 158 L 250 158 Z" fill="#1E3A8A" />
+      <!-- Green Window (4 Panes) -->
+      <g fill="#22C55E">
+        <rect x="211" y="166" width="6.5" height="6.5" rx="0.5" />
+        <rect x="220" y="166" width="6.5" height="6.5" rx="0.5" />
+        <rect x="211" y="175" width="6.5" height="6.5" rx="0.5" />
+        <rect x="220" y="175" width="6.5" height="6.5" rx="0.5" />
+      </g>
+    </g>
+
+    <!-- 5. Light Blue Car (Car Care) -->
+    <g fill="#4A90E2">
+      <!-- Car Body -->
+      <path d="M 235 186 C 235 182, 238 178, 245 177 L 255 172 C 260 169, 272 169, 278 173 L 286 177 C 292 178, 295 182, 295 186 L 295 190 C 295 191.5, 293.5 192.5, 291 192.5 L 287.5 192.5 C 287.5 188.5, 284 185.5, 280 185.5 C 276 185.5, 272.5 188.5, 272.5 192.5 L 254.5 192.5 C 254.5 188.5, 251 185.5, 247 185.5 C 243 185.5, 239.5 188.5, 239.5 192.5 L 236 192.5 C 234.5 192.5, 233.5 191.5, 233.5 190 Z" />
+      <!-- Wheels -->
+      <circle cx="247" cy="192.5" r="5" fill="#FFFFFF" stroke="#4A90E2" stroke-width="2" />
+      <circle cx="280" cy="192.5" r="5" fill="#FFFFFF" stroke="#4A90E2" stroke-width="2" />
+      <circle cx="247" cy="192.5" r="2" fill="#1E3A8A" />
+      <circle cx="280" cy="192.5" r="2" fill="#1E3A8A" />
+      <!-- Car Window Glass (White) -->
+      <path d="M 256 174 L 265 174 L 265 178 L 249 178 Z" fill="#FFFFFF" />
+      <path d="M 268 174 L 276 174 L 282 178 L 268 178 Z" fill="#FFFFFF" />
+    </g>
+  </g>
+
+  <!-- Typography: AMARI PRODUCTS -->
+  <!-- Line 1: AMARI -->
+  <text
+    x="250"
+    y="308"
+    text-anchor="middle"
+    font-size="64"
+    fill="#111827"
+    class="logo-title"
+  >AMARI</text>
+
+  <!-- Line 2: PRODUCTS -->
+  <text
+    x="250"
+    y="376"
+    text-anchor="middle"
+    font-size="60"
+    fill="#111827"
+    class="logo-subtitle"
+  >PRODUCTS</text>
+</svg>
