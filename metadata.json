@@ -1,0 +1,6 @@
+{
+  "name": "Amari Products",
+  "description": "Premium fragrance, air care, car care and personal care product manufacturing and private label solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
